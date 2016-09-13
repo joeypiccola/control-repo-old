@@ -10,3 +10,8 @@ mod 'users',
 mod 'dsc_wrapper',
   :git    => 'https://github.com/joeypiccola/dsc_wrapper.git',
   :branch => 'master'
+  
+mod 'dsc_wrapper',
+  :git    => 'https://github.com/joeypiccola/fwtime.git',
+  :branch => 'master'
+
