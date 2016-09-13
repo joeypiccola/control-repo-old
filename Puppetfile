@@ -8,4 +8,4 @@ mod 'users',
 
 mod 'dsc_wrapper',
   :git    => 'https://github.com/joeypiccola/dsc_wrapper.git',
-  :commit => '1574ae55d5f764d181a609a460414aebfbfae6f2'
+  :branch => 'master'
