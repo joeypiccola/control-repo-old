@@ -1,7 +1,4 @@
-cd 'C:\Program Files\Puppet Labs\Puppet\bin'
-$oi = hostname
-
-switch ($oi)
+switch (hostname)
 {
     'app10'
     {
