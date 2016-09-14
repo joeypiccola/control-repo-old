@@ -22,7 +22,7 @@ package { 'notepadplusplus':
 registry_value { 'HKLM\System\CurrentControlSet\Services\Puppet\Description':
   ensure => present,
   type   => string,
-  data   => "The Puppet Agent service periodically manages your configuration",
+  data   => "the Puppet Agent service periodically manages your configuration",
 }
 
 }
