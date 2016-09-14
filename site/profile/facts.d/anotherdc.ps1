@@ -1,5 +1,5 @@
 cd 'C:\Program Files\Puppet Labs\Puppet\bin'
-$oi = facter.bat hostname
+$oi = hostname
 
 switch ($oi)
 {
