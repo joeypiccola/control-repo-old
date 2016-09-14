@@ -2,7 +2,8 @@
 
 class profile::base {
 
-include chocolatey
+# scope it right!
+include ::chocolatey
 
 user { 'administrator':
   ensure   => present,
