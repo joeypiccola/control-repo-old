@@ -13,3 +13,4 @@ Factor.add('datacenter') do
       'nodc'
     end
   end
+end
