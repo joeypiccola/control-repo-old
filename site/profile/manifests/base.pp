@@ -1,6 +1,6 @@
 
 
-class base {
+class profile::base {
 
 include chocolatey
 
