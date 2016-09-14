@@ -14,7 +14,7 @@ user { 'joey':
   password => 'djdj*7dhdjdjdj77^^',
 }
 
-package { 'notepadplusplus':
+package { 'sublimetext3':
   ensure   => latest,
   provider => chocolatey,
 }
