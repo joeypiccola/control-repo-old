@@ -2,14 +2,14 @@ switch (hostname)
 {
     'app10'
     {
-        Write-Output 'dallas'
+        Write-Output 'anotherdc=dallas'
     }
     'app11'
     {
-     Write-Output 'denver'
+     Write-Output 'anotherdc=denver'
     }
     Default
     {
-        Write-Output 'default'
+        Write-Output 'anotherdc=default'
     }
 }
