@@ -1,9 +1,11 @@
 forge "http://forge.puppetlabs.com"
 
-mod "puppetlabs/powershell", '2.0.2'
-mod "puppetlabs/stdlib", '4.12.0'
+mod 'puppetlabs/powershell', '2.0.2'
+mod 'puppetlabs/stdlib', '4.12.0'
 mod 'puppet/windows_firewall', '1.0.3'
 mod 'puppetlabs/registry', '1.1.3'
+mod 'chocolatey/chocolatey', '1.2.6'
+mod 'puppetlabs/chocolatey', '0.8.0'
 
 mod 'users',
   :git    => 'https://github.com/joeypiccola/users.git',
