@@ -1,5 +1,5 @@
 # datacenter.rb
-Factor.add('datacenter') do
+Facter.add('datacenter') do
   setcode do
     hostname = Facter.value(:hostname)
     case hostname 
