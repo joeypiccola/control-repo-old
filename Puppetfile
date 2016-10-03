@@ -13,3 +13,7 @@ mod 'users',
 mod 'dsc_wrapper',
   :git    => 'https://github.com/joeypiccola/dsc_wrapper.git',
   :branch => 'master'
+
+mod 'jpi_base_win',
+  :git    => 'https://github.com/joeypiccola/jpi_base_win.git',
+  :branch => 'test'
