@@ -13,3 +13,7 @@ mod 'timezone_win',
 mod 'jpi_base_win',
   :git    => 'https://github.com/joeypiccola/jpi_base_win.git',
   :branch => 'master'
+
+mod 'dns_win',
+  :git    => 'https://github.com/joeypiccola/dns_win.git',
+  :branch => 'master'
